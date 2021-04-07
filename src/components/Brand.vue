@@ -158,7 +158,7 @@ span:before, span:after {
     text-decoration: none;
     color: #fff;
     font-size: 24px;
-    transition: .3s ease-in-out;
+    object-fit: contain;
 }
 .brand-bar a:hover {
     color: #259946;
