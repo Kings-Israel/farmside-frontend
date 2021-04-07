@@ -110,6 +110,8 @@ export default {
     },
     methods: {
         submitMessage() {
+            alert('New Message')
+            console.log('message')
             this.errors = {}
             this.sending = true
             const validPhone = validatePhone(this.form.phone_number);

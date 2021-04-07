@@ -379,6 +379,8 @@ export default {
   },
   methods: {
     book() {
+      alert('New Booking')
+      console.log('book')
       this.sending = true;
       this.errors = {};
       const validPhone = validatePhone(this.form.phone_number);
