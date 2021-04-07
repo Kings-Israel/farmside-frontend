@@ -32,7 +32,7 @@ export default new Vuex.Store({
             }
         },
         async sendBooking({commit}, booking) {
-            let response = await axios.post('/bookings/book', booking)
+            let response = await axios.post('/booking', booking)
             if(response.data.message == 'success'){
                 commit('BOOKING_SENT')
             } else {
