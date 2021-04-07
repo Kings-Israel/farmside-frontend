@@ -24,8 +24,7 @@ export default new Vuex.Store({
     },
     actions: {
         async sendMessage({commit}, message){
-            console.log('message')
-            let response = await axios.post('https://farmside-functions.netlify.app/.netlify/functions/message', message)
+            let response = await axios.post('/message', message)
             if(response.data.message == 'success'){
                 commit('MESSAGE_SENT')
             } else {
@@ -34,7 +33,7 @@ export default new Vuex.Store({
         },
         async sendBooking({commit}, booking) {
             console.log('Booking')
-            let response = await axios.post('https://farmside-functions.netlify.app/.netlify/functions/booking', booking)
+            let response = await axios.post('/booking', booking)
             if(response.data.message == 'success'){
                 commit('BOOKING_SENT')
             } else {

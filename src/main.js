@@ -18,6 +18,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import 'material-icons/iconfont/material-icons.css';
 
+axios.defaults.baseURL = 'https://farmside-functions.netlify.app/.netlify/functions'
+
 library.add(faChevronCircleDown)
 library.add(faInstagram)
 library.add(faYoutube)
