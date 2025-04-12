@@ -53,30 +53,30 @@ export default {
         return {
             carouselVideos: [
                 {
-                    title: "Minions1",
-                    content: "Minions 1",
+                    title: "24 in 254 Ep 4",
+                    content: "24 in 254 Ep 4",
                     video: {
-                        url: 'https://www.youtube.com/embed/WwD21cFvy68?rel=0&showinfo=0&controls=0&fs=0&modestbranding=1&color=white&iv_load_policy=3&autohide=1&enablejsapi=1',
+                        url: 'https://www.youtube.com/embed/wz092iZFP-s?si=Gw6mEwxYSoTWTS56',
                         props: { 
                             allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                          }
                     }
                 },
                 {
-                    title: "Minions2",
-                    content: "Minions 2",
+                    title: "24 in 254 Ep 3",
+                    content: "24 in 254 Ep 3",
                     video: {
-                        url: 'https://www.youtube.com/embed/wM7zqDG5Iws?rel=0&showinfo=0&controls=0&fs=0&modestbranding=1&color=white&iv_load_policy=3&autohide=1&enablejsapi=1',
+                        url: 'https://www.youtube.com/embed/W6MuhsnZBaA?si=aNT689i9bw4_TIBF',
                         props: { 
                             allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                          }
                     }
                 },
                 {
-                    title: "Minions3",
-                    content: "Minions 3",
+                    title: "Man of Valor",
+                    content: "Man of Valor",
                     video: {
-                        url: 'https://www.youtube.com/embed/PjfP2tmjtQM?rel=0&showinfo=0&controls=0&fs=0&modestbranding=1&color=white&iv_load_policy=3&autohide=1&enablejsapi=1',
+                        url: "https://www.youtube.com/embed/N4cPSpLTNe8?si=OgCdt2vojccQi1I2",
                         props: { 
                             allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                          }
@@ -86,7 +86,7 @@ export default {
                     title: "Minions4",
                     content: "Minions 4",
                     video: {
-                        url: 'https://www.youtube.com/embed/P9-FCC6I7u0?rel=0&showinfo=0&controls=0&fs=0&modestbranding=1&color=white&iv_load_policy=3&autohide=1&enablejsapi=1',
+                        url: 'https://www.youtube.com/embed/zToczpO0FJ4?si=LCoLdxm8SBAKApeM',
                         props: { 
                             allow: 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
                          }
